@@ -1,0 +1,48 @@
+#button{
+
+    height: 100px;
+    width: 420px;
+    background-color: blueviolet;
+    color: white;
+    font-family: calibri;
+    font-size: 32px;
+    border: 0px;
+    outline: none;
+    border-radius: 12px;
+
+    cursor: pointer;
+    
+}
+
+#button:hover{
+    background-color: red;
+
+
+}
+
+#button:active{
+    transform: translateY(4px);
+}
+
+#img{
+
+    height: 500px;
+
+    border-radius: 12px;
+    user-select: none;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: calibri;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
